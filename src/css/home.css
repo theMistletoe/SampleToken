@@ -1,0 +1,43 @@
+body {
+  background-image: url(../images/blockchain.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  z-index: 0;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+  background: inherit;
+  filter: blur(1.5px);
+  z-index: -1;
+}
+
+.text_against_picture{
+  text-shadow: 0 0 10px #666666;
+  color: #222222;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+body {
+  font-size: 2em;
+}
+
+.img-responsive-overwrite{
+    margin: 0 auto;
+}

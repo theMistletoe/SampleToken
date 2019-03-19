@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "builds": [
+        { "src": "truffle.js", "use": "@now/node" },
+        { "src": "src/*.html", "use": "@now/static" },
+        { "src": "src/css/*", "use": "@now/static" },
+        { "src": "src/fonts/*", "use": "@now/static" },
+        { "src": "src/js/*.js", "use": "@now/static" },
+        { "src": "build/contract/*", "use": "@now/static" }
+    ],
+    "routes": [{ "src": "(.*)", "dest": "src/index.html" }]
+}

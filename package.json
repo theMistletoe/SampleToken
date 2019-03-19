@@ -1,0 +1,26 @@
+{
+  "name": "tutorialtoken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "lite-server -c ./bs-config.js",
+    "test": "lite-server -c ./bs-config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "lite-server": "^2.3.0",
+    "material-ui": "^0.20.2",
+    "openzeppelin-solidity": "^2.1.2",
+    "truffle": "^4.1.14",
+    "truffle-hdwallet-provider": "^1.0.3"
+  }
+}
